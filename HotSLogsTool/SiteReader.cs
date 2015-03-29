@@ -84,6 +84,7 @@ namespace HotSLogsTool
 			var links = document.DocumentNode.SelectNodes("//a[starts-with(@href, '/Sitewide/HeroDetails?Hero=')]");
 			var paths = links.Select(link => link.Attributes["href"].Value);
 			paths = paths.Where(path => !path.Contains("Auto Select"));
+			paths = paths.Distinct();
 			return paths.ToList();
         }
 

@@ -32,7 +32,6 @@ Tychus: 49.3%
 Arthas: 48.9%
 Abathur: 48.3%
 Kerrigan: 48.3%
-Abathur: 48.3%
 Sonya: 48.0%
 Raynor: 46.5%
 Stitches: 45.0%
@@ -70,7 +69,6 @@ Sgt. Hammer: 49.1%
 Sonya: 48.2%
 Raynor: 47.1%
 Abathur: 46.8%
-Abathur: 46.8%
 Arthas: 46.0%
 Stitches: 44.8%
 
@@ -107,6 +105,5 @@ Sgt. Hammer: 49.0%
 Raynor: 48.2%
 Sonya: 47.8%
 Arthas: 47.4%
-Abathur: 46.8%
 Abathur: 46.8%
 Stitches: 45.0%
