@@ -32,9 +32,15 @@ namespace HotSLogsTool
 			}).ToList();
 
 			stopwatch.Stop();
-			Console.WriteLine("Done downloading content after {0} ms", stopwatch.ElapsedMilliseconds);
+			Console.WriteLine("Done downloading content after {0} ms\n", stopwatch.ElapsedMilliseconds);
 
-			int level = 1;
+			var levels = new int[] { 1, 4, 7 };
+			foreach (var level in levels)
+				CalculateStats(level, allHeroStats);
+		}
+
+		private void CalculateStats(int level, List<HeroStats> allHeroStats)
+		{
 			decimal minimumPopularityPercentage = 5.0M;
 
 			var adjustedHeroes = new List<dynamic>();
@@ -47,12 +53,14 @@ namespace HotSLogsTool
 					Name = heroStats.Name,
 					WinPercentage = winningSkill.WinPercentage
 				});
-            }
+			}
 			adjustedHeroes = adjustedHeroes.OrderByDescending(hero => hero.WinPercentage).ToList();
+			Console.WriteLine("Adjusted win percentages at level {0}:", level);
 			foreach (var hero in adjustedHeroes)
 			{
 				Console.WriteLine("{0}: {1}%", hero.Name, hero.WinPercentage);
 			}
+			Console.WriteLine("");
 		}
 
 		private HtmlDocument GetDocument(string path)
@@ -84,9 +92,7 @@ namespace HotSLogsTool
 			var document = GetDocument(path);
 			var rows = document.DocumentNode.SelectNodes("//tr[starts-with(@id, 'ctl00_MainContent_RadGridHeroTalentStatistics_ctl00__')]");
 			int? level = null;
-			var pattern = new Regex("=(.+)");
-			var match = pattern.Match(path);
-			string heroName = match.Groups[1].Value;
+			string heroName = document.DocumentNode.SelectSingleNode("//option[@selected]").Attributes["value"].Value;
 			var heroStats = new HeroStats(heroName);
 			foreach (var row in rows)
 			{

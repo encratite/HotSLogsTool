@@ -1,0 +1,112 @@
+2015-03-29
+
+Adjusted win percentages at level 1:
+The Lost Vikings: 63.5%
+Brightwing: 59.7%
+Murky: 59.7%
+Tyrael: 57.3%
+Jaina: 56.9%
+Li Li: 56.4%
+Thrall: 55.7%
+Rehgar: 55.2%
+Zeratul: 54.6%
+Uther: 54.5%
+Azmodan: 54.5%
+Chen: 54.4%
+E.T.C.: 53.9%
+Diablo: 53.8%
+Gazlowe: 53.6%
+Illidan: 53.6%
+Sylvanas: 53.5%
+Zagara: 53.5%
+Nova: 52.6%
+Valla: 52.0%
+Tyrande: 51.9%
+Falstad: 51.4%
+Sgt. Hammer: 50.8%
+Tassadar: 50.7%
+Nazeebo: 50.1%
+Muradin: 49.6%
+Malfurion: 49.3%
+Tychus: 49.3%
+Arthas: 48.9%
+Abathur: 48.3%
+Kerrigan: 48.3%
+Abathur: 48.3%
+Sonya: 48.0%
+Raynor: 46.5%
+Stitches: 45.0%
+
+Adjusted win percentages at level 4:
+The Lost Vikings: 62.0%
+Brightwing: 60.0%
+Murky: 57.2%
+Tyrael: 56.6%
+Thrall: 56.1%
+E.T.C.: 55.7%
+Sylvanas: 55.2%
+Illidan: 55.2%
+Jaina: 54.8%
+Rehgar: 54.6%
+Diablo: 54.6%
+Uther: 54.2%
+Azmodan: 54.1%
+Tyrande: 53.7%
+Zagara: 53.2%
+Li Li: 53.0%
+Falstad: 52.8%
+Chen: 52.7%
+Valla: 52.4%
+Nova: 52.4%
+Nazeebo: 52.3%
+Gazlowe: 52.0%
+Zeratul: 51.5%
+Malfurion: 51.2%
+Tassadar: 51.1%
+Muradin: 50.7%
+Tychus: 50.1%
+Kerrigan: 49.3%
+Sgt. Hammer: 49.1%
+Sonya: 48.2%
+Raynor: 47.1%
+Abathur: 46.8%
+Abathur: 46.8%
+Arthas: 46.0%
+Stitches: 44.8%
+
+Adjusted win percentages at level 7:
+The Lost Vikings: 61.8%
+Brightwing: 59.9%
+Murky: 58.2%
+Li Li: 57.5%
+Uther: 55.9%
+Tyrael: 55.9%
+E.T.C.: 55.5%
+Sylvanas: 54.8%
+Thrall: 54.8%
+Jaina: 54.5%
+Azmodan: 54.4%
+Rehgar: 54.2%
+Illidan: 53.7%
+Nova: 53.7%
+Diablo: 53.4%
+Zagara: 53.2%
+Chen: 52.8%
+Zeratul: 52.7%
+Falstad: 52.2%
+Tyrande: 52.1%
+Gazlowe: 51.9%
+Valla: 51.8%
+Tychus: 50.5%
+Kerrigan: 50.4%
+Tassadar: 50.3%
+Nazeebo: 50.1%
+Malfurion: 49.5%
+Muradin: 49.5%
+Sgt. Hammer: 49.0%
+Raynor: 48.2%
+Sonya: 47.8%
+Arthas: 47.4%
+Abathur: 46.8%
+Abathur: 46.8%
+Stitches: 45.0%
