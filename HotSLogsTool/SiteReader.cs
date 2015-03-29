@@ -23,7 +23,7 @@ namespace HotSLogsTool
 				var task = new Task<HeroStats>(() => ReadHeroStats(path));
 				task.Start();
 				tasks.Add(task);
-            }
+			}
 
 			var allHeroStats = tasks.Select((task) =>
 			{
@@ -66,7 +66,7 @@ namespace HotSLogsTool
 		private HtmlDocument GetDocument(string path)
 		{
 			string uri = string.Format("https://www.hotslogs.com{0}", path);
-            var request = WebRequest.Create(uri);
+			var request = WebRequest.Create(uri);
 			using (var response = (HttpWebResponse)request.GetResponse())
 			{
 				using (var stream = response.GetResponseStream())
@@ -86,7 +86,7 @@ namespace HotSLogsTool
 			paths = paths.Where(path => !path.Contains("Auto Select"));
 			paths = paths.Distinct();
 			return paths.ToList();
-        }
+		}
 
 		private HeroStats ReadHeroStats(string path)
 		{
@@ -103,9 +103,9 @@ namespace HotSLogsTool
 					var levelString = precedingRow.SelectSingleNode(".//p").InnerText;
 					var levelPattern = new Regex(@"\d+");
 					var levelMatch = levelPattern.Match(levelString);
-                    level = int.Parse(levelMatch.Value);
+					level = int.Parse(levelMatch.Value);
 				}
-                var children = row.ChildNodes;
+				var children = row.ChildNodes;
 				string name = children[4].InnerText;
 				decimal popularityPercentage = GetPercentage(children[7].InnerText);
 				decimal winPercentage = GetPercentage(children[8].InnerText);
